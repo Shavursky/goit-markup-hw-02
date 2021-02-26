@@ -1,0 +1,188 @@
+/*============Переменные CSS===========*/
+:root {
+    --accent-color: #2196F3;
+    --accent-color-white: #FFFFFF;
+}
+
+
+/*=========Body=========*/
+.font {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+}
+/*Підкреслення силки*/
+.link {
+    text-decoration: none;
+}
+/*Маркери списків ul*/
+.list {
+    list-style: none;
+}
+/*Стилізація частини назви"Web" WebStudio*/
+.link-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 900;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: black;
+}
+.logo {
+    color: var(--accent-color);
+}
+/*Стилізація контактної інформації*/
+.mail-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);    
+}
+.tel-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: #757575; 
+}
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color);    
+}
+
+/*================section-heading==================*/
+.section-heading-links {
+    font-family: "Roboto", sans-serif;   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+    background-color: #2F303A;   
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/*====================section-Button=================*/
+.section-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.section-button:hover,
+.section-button:focus {
+        background-color: #FFFFFF;
+        color: var(--accent-color);
+}
+/*==================NAV=================*/
+.nav-link {
+    font-family: "Roboto", sans-serif;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;    
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+/*================content-list==================*/
+.content-list {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+/*=================content-body==================*/
+.content-body {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*==================section-title=================*/
+.section-title {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 36px;
+line-height: 1.16;
+color: #212121;
+}
+/*============DESKTOP=============*/
+
+/*===============ABOUT================*/
+.about-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+color: #757575;
+}
+/*==========Portfolio-Button==========*/
+.main-button {
+color: #212121;
+background-color: #E5E5E5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+}
+.main-button:hover,
+.main-button:focus {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/*============"portfolio"=============*/
+.portfolio-title {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 18px;
+line-height: 2;
+color: #212121;
+}
+.portfolio-text {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.88;
+color: b#757575;
+}
+/*================footer=================*/
+.footer-contact {
+    background-color: #2F303A;
+}
+.footer-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 900;
+font-size: 26px;
+line-height: 1,19;
+letter-spacing: 0.03em;
+color: var(--accent-color-white);
+}
+.footer-address {
+font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--accent-color-white);
+}
