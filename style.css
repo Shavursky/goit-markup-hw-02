@@ -133,7 +133,7 @@ body {
 /*================content-list==================*/
 
 .content-list {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -169,6 +169,15 @@ body {
 
 .section-about {
     background: var(--accen-section-about);
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18px;
+    letter-spacing: 0.03em;
+    text-transform: initial;
+    color: var(--accent-color-black);
 }
 
 .about-text {
